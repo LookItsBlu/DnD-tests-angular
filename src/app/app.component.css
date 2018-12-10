@@ -1,0 +1,15 @@
+.grid-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  height: 50px;
+}
+
+.grid-cell {
+  align-items: center;
+  border: 1px solid gray;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex: 0 0 100px;
+}
