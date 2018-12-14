@@ -1,0 +1,21 @@
+.grid {
+  display: flex;
+  flex-direction: row;
+}
+
+.grid-column {
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 100px;
+}
+
+.grid-cell {
+  border: 1px solid gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 100%;
+  box-sizing: border-box;
+  user-select: none;
+}

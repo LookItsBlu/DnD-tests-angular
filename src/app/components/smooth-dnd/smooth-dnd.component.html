@@ -1,0 +1,7 @@
+<div class="grid">
+  <smooth-dnd-container [groupName]="1" [orientation]="vertical" class="grid-column" *ngFor="let row of items; let x = index">
+    <smooth-dnd-draggable class="grid-cell" *ngFor="let cell of row; let y = index">
+      <span>{{ cell }}</span>
+    </smooth-dnd-draggable>
+  </smooth-dnd-container>
+</div>
