@@ -12,7 +12,7 @@ export class SmoothDndComponent {
     this.items = [];
     for (let x = 0; x < 100; x += 1) {
       this.items.push([]);
-      for (let y = 0; y < 100; y += 1) {
+      for (let y = 0; y < 50; y += 1) {
         this.items[x].push(`${x}, ${y}`);
       }
     }
